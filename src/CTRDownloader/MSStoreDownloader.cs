@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using UnifiedUpdatePlatform.Services.WindowsUpdate;
 using UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads;
 
-namespace StoreDownloader
+namespace CTRDownloader
 {
     public static class MSStoreDownloader
     {

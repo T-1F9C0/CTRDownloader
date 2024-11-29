@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnifiedUpdatePlatform.Services.WindowsUpdate;
 
-namespace StoreDownloader
+namespace CTRDownloader
 {
     public static class CTRDownloader
     {

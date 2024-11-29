@@ -1,7 +1,7 @@
 ﻿using System;
 using UnifiedUpdatePlatform.Services.WindowsUpdate;
 
-namespace StoreDownloader;
+namespace CTRDownloader;
 
 public class ApplicationFile
 {
