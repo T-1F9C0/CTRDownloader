@@ -21,7 +21,7 @@ namespace CTRDownloader
 
                 string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 string downloadPath = Path.Combine(localAppData, "CTRPackages");
-                Directory.CreateDirectory(ctrPackagesPath);
+                Directory.CreateDirectory(downloadPath);
 
                 DirectoryInfo downloadDir = new DirectoryInfo(downloadPath);
                 DownloadProgress downloadProgress = new DownloadProgress();
