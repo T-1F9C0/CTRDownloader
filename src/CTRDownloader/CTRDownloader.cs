@@ -18,7 +18,12 @@ namespace CTRDownloader
             {
                 string[] categoryId = ["b04ba118-2f7f-4e8f-9276-acb69df6a6ab"];
                 CTAC ctac = new UnifiedUpdatePlatform.Services.WindowsUpdate.CTAC();
-                DirectoryInfo downloadDir = new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+
+                string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+                string downloadPath = Path.Combine(localAppData, "CTRPackages");
+                Directory.CreateDirectory(ctrPackagesPath);
+
+                DirectoryInfo downloadDir = new DirectoryInfo(downloadPath);
                 DownloadProgress downloadProgress = new DownloadProgress();
 
                 MSStoreDownloader.DownloadPackageAsync(categoryId, ctac, downloadDir, downloadProgress).GetAwaiter().GetResult();
