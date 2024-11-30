@@ -4,7 +4,16 @@
     <Platforms>AnyCPU;x64;x86;arm64</Platforms>
     <OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads\</OutputPath>
     <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads\</IntermediateOutputPath>
+
+	  <OutputType>Library</OutputType>
+	  <PublishAot>true</PublishAot>
+	  <NativeLib>Static</NativeLib>
   </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="8.0.11" />
+	</ItemGroup>
+	
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
