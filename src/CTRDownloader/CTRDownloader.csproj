@@ -1,11 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<OutputType>Library</OutputType>
+	  <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-	<PublishAot>true</PublishAot>
-	<RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
-	<NativeLib>Static</NativeLib>
+	  <PublishAot>true</PublishAot>
+	  <NativeLib>Static</NativeLib>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
