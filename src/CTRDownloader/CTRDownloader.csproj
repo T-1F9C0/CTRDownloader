@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\CTRDownloader\</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\CTRDownloader\</IntermediateOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cabinet\Cabinet.csproj" />
+    <ProjectReference Include="..\CompDB\UnifiedUpdatePlatform.Services.Composition.Database.csproj" />
+    <ProjectReference Include="..\UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads\UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads.csproj" />
+    <ProjectReference Include="..\UnifiedUpdatePlatform.Services.WindowsUpdate\UnifiedUpdatePlatform.Services.WindowsUpdate.csproj" />
+  </ItemGroup>
+
+</Project>
