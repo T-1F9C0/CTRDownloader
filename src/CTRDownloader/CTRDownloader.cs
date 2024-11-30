@@ -11,7 +11,6 @@ namespace CTRDownloader
 {
     public static class CTRDownloader
     {
-        [UnmanagedCallersOnly(EntryPoint = "DownloadCTR")]
         public static int DownloadCTR()
         {
             try
