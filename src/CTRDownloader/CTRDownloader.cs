@@ -16,7 +16,7 @@ namespace CTRDownloader
         {
             try
             {
-                string[] categoryId = ["b04ba118-2f7f-4e8f-9276-acb69df6a6ab"];
+                string[] categoryId = {"b04ba118-2f7f-4e8f-9276-acb69df6a6ab"};
                 CTAC ctac = new UnifiedUpdatePlatform.Services.WindowsUpdate.CTAC();
 
                 string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
