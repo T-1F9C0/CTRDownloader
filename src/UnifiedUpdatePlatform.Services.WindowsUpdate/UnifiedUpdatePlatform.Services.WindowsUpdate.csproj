@@ -9,14 +9,13 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 
-	<PublishAot>true</PublishAot>
-	<NativeLib>Static</NativeLib>
+    <PublishAot>true</PublishAot>
   </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="8.0.11" />
-	</ItemGroup>
-	
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="8.0.11" />
+  </ItemGroup>
+    
   <ItemGroup>
     <ProjectReference Include="..\Cabinet\Cabinet.csproj" />
     <ProjectReference Include="..\CompDB\UnifiedUpdatePlatform.Services.Composition.Database.csproj" />

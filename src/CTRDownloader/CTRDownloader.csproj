@@ -1,18 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-	  <TargetFramework>net8.0</TargetFramework>
-	  <ImplicitUsings>enable</ImplicitUsings>
-	  <Nullable>enable</Nullable>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
 
-	  <OutputType>Library</OutputType>
-	  <PublishAot>true</PublishAot>
-	  <NativeLib>Static</NativeLib>
+	<OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\CTRDownloader\</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\CTRDownloader\</IntermediateOutputPath>
+
+    <OutputType>Library</OutputType>
+    <PublishAot>true</PublishAot>
   </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="8.0.11" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="8.0.11" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Cabinet\Cabinet.csproj" />
