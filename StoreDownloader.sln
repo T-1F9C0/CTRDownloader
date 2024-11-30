@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifiedUpdatePlatform.Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cabinet", "src\Cabinet\Cabinet.csproj", "{C5835DCF-1A20-414B-865A-AA3F8CACE62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTRDownloader", "src\CTRDownloader\CTRDownloader.csproj", "{6BE60425-7787-419E-BF0A-29119557E8A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDownloader", "src\StoreDownloader\StoreDownloader.csproj", "{6BE60425-7787-419E-BF0A-29119557E8A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

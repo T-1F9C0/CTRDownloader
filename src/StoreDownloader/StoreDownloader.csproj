@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\CTRDownloader\</OutputPath>
-    <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\CTRDownloader\</IntermediateOutputPath>
+    <OutputPath>$(SolutionDir)build\$(Platform)\$(Configuration)\StoreDownloader\</OutputPath>
+    <IntermediateOutputPath>$(SolutionDir)intermediate\$(Platform)\$(Configuration)\StoreDownloader\</IntermediateOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

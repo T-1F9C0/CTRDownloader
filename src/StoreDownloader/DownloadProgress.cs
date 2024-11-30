@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnifiedUpdatePlatform.Services.WindowsUpdate.Downloads;
 
-namespace CTRDownloader;
+namespace StoreDownloader;
 
 public class DownloadProgress : Progress<GeneralDownloadProgress>
 {
